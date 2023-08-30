@@ -1,7 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:elibrary/constants/colors.dart';
 import 'package:elibrary/constants/images.dart';
-import 'package:elibrary/widgets/loader.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'package:elibrary/controllers/book_controller.dart';

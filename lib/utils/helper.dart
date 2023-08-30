@@ -149,7 +149,7 @@ InputDecoration textDecorNoBorder(
     Color? hintColor,
     String labelText = '',
     String family = "Poppins",
-    FontWeight hintWeight: FontWeight.normal,
+    FontWeight hintWeight = FontWeight.normal,
     Color? fill,
     Color borderColor = Colors.black,
     double radius = 4,
