@@ -47,7 +47,7 @@ class _RequestBookViewState extends State<RequestBookView> {
 
   String name = '';
 
-  void _clearForm() {
+  void clearForm() {
     _titleController.clear();
     _authorController.clear();
     _indexController.clear();
@@ -57,7 +57,7 @@ class _RequestBookViewState extends State<RequestBookView> {
   }
 
   sendUserRequest() async {
-    var userData = {
+    var serData = {
       'title': _titleController.text.trim(),
       'author': _authorController.text.trim(),
       'index': _indexController.text.trim(),
