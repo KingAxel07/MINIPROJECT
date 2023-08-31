@@ -57,14 +57,6 @@ class _RequestBookViewState extends State<RequestBookView> {
   }
 
   sendUserRequest() async {
-    var serData = {
-      'title': _titleController.text.trim(),
-      'author': _authorController.text.trim(),
-      'index': _indexController.text.trim(),
-      'borrow_date': _dateController.text.trim(),
-      'return_date': _returnController.text.trim(),
-      'borrowed_by': _nameController.text.trim(),
-    };
   }
 
   DateTime selectReturnDate = DateTime.now();

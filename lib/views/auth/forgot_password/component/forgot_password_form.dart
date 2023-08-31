@@ -31,6 +31,7 @@ class _ForgotPasswordFormState extends State<ForgotPasswordForm> {
     }
 
     bool validatePasswordReset() {
+      // ignore: unused_local_variable
       final form = _forgotPasswordFormKey.currentState;
 
       return false;

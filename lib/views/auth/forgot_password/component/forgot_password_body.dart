@@ -10,6 +10,7 @@ class ForgotPasswordBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: unused_local_variable
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
     Size fontSize = MediaQuery.of(context).size;

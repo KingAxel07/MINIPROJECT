@@ -6,6 +6,7 @@ import 'package:elibrary/widgets/app_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+// ignore: must_be_immutable
 class BorrowedBooksView extends StatelessWidget {
   BorrowedBooksView({super.key});
   final scaffoldKey = GlobalKey<ScaffoldState>();
